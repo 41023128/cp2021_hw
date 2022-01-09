@@ -419,7 +419,7 @@ function doSave(storage_id, filename){
 <script src="https://mde.tw/cp2021/cmsimde/static/sylvester.js"></script>
 <script src="https://mde.tw/cp2021/cmsimde/static/PrairieDraw.js"></script>
 </p>
-<p><button id="hw1">hw1</button><button id="1 plus to 10">1 plus to 10</button><button id="add1to100">final1</button><button id="p261">final2</button></p>
+<p><button id="hw1">hw1</button><button id="add1to100">final1</button><button id="p261">final2</button></p>
 <p><!-- ######################  editor1 開始 ###################### --></p>
 <p><!-- 用來顯示程式碼的 editor 區域 --></p>
 <div id="kw_editor1" style="width: 600px; height: 300px;"></div>
@@ -500,7 +500,7 @@ class button2:
         Ace2.editor.scrollToRow(0)
         Ace2.editor.gotoLine(0)
         Ace2.run()
-
+        
 add1to100_url = "https://gist.githubusercontent.com/41023128/7710d00d3718d8c5e33e3fc823dbf207/raw/1ad7e40994298be44378bfcbff4df53cd3a8d2d3/final1"
 add1to100 = button2(add1to100_url)
 doc["add1to100"].bind('click', add1to100.do)
@@ -514,10 +514,6 @@ hw1_url = "https://gist.githubusercontent.com/41023128/8abb87b22973935c4fbfad3ee
 hw1 = button2(hw1_url)
 doc["hw1"].bind('click', hw1.do)
 ################################## hw1 end
-################################# pp10 start 
-1 plus to 10 _url = "https://gist.githubusercontent.com/41023128/27b5e9a138949cb58dc8dc43a5dc98ed/raw/8ded26c096c10d203804fde704d1bd7e2a9eab0b/1to10"
-1 plus to 10  = button2(1 plus to 10 _url)
-doc["1 plus to 10"].bind('click', 1 plus to 10 .do)
-################################## 1 plus to 10  end
+
 </script>
 </p>
